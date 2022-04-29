@@ -2,149 +2,149 @@
 
 //1.3
 
-// int main()
-// {
-//     //1.3
-//     std::cout<<"hello world!"<<std::endl;
+int main()
+{
+    //1.3
+    std::cout<<"hello world!"<<std::endl;
 
-//     //1.4
-//     std::cout << "Enter two number:" << std::endl;
-//     int v1 = 0, v2 = 0;
-//     // std::cin >> v1 >> v2;
-//     std::cout << "The product of " << v1 << " and "<< v2 << " is " << v1 * v2 <<std::endl;
+    //1.4
+    std::cout << "Enter two number:" << std::endl;
+    int v1 = 0, v2 = 0;
+    // std::cin >> v1 >> v2;
+    std::cout << "The product of " << v1 << " and "<< v2 << " is " << v1 * v2 <<std::endl;
 
-//     //1.5
-//     std::cout << " sun " << v1 << std::endl;
-//     std::cout << " sun " << std::endl;
-//     std::cout << " " << std::endl;
-//     std::cout << v1 << std::endl;
+    //1.5
+    std::cout << " sun " << v1 << std::endl;
+    std::cout << " sun " << std::endl;
+    std::cout << " " << std::endl;
+    std::cout << v1 << std::endl;
 
-//     //1.6
-//     std::cout << " The sum of " << v1 << std::endl;
-//             //   << " and " << v2;  ²»ºÏ·¨
+    //1.6
+    std::cout << " The sum of " << v1 << std::endl;
+            //   << " and " << v2;  ä¸åˆæ³•
 
-//     //1.7
-//     // /*
-//     //  *
-//     //  */
+    //1.7
+    // /*
+    //  *
+    //  */
 
-//     //1.8
-//     std::cout << "/*" << std::endl;
-//     std::cout << "*/" << std::endl;
-//     // std::cout << /* "*/" */;
-//     std::cout << /* "*/" /* "/* */ << std::endl;
+    //1.8
+    std::cout << "/*" << std::endl;
+    std::cout << "*/" << std::endl;
+    // std::cout << /* "*/" */;
+    std::cout << /* "*/" /* "/* */ << std::endl;
  
-//     return 0;
-// }
+    return 0;
+}
 
 // 1.4.1
 
-// int main()
-// {
-//     // int i = 1, sum = 0;
-//     // while(i <= 10) {
-//     //     sum += i;
-//     //     i++;
-//     // }
-//     // std::cout <<" sum is : " <<sum << std::endl;
+int main()
+{
+    // int i = 1, sum = 0;
+    // while(i <= 10) {
+    //     sum += i;
+    //     i++;
+    // }
+    // std::cout <<" sum is : " <<sum << std::endl;
 
-//     //1.9
-//     // int i = 50, sum = 0; 
-//     // while (i <= 100) {
-//     //     sum += i;
-//     //     i++;
-//     // }
-//     // std::cout << " The sum of 50 to 100 is : " << sum << std::endl;
+    //1.9
+    // int i = 50, sum = 0; 
+    // while (i <= 100) {
+    //     sum += i;
+    //     i++;
+    // }
+    // std::cout << " The sum of 50 to 100 is : " << sum << std::endl;
 
-//     //1.10
-//     // int i = 11;
-//     // while(i--) {
-//     //     std::cout << " " << i << std::endl;
-//     // }
+    //1.10
+    // int i = 11;
+    // while(i--) {
+    //     std::cout << " " << i << std::endl;
+    // }
 
-//     //1.11
-//     // int a = 0, b = 0;
-//     // std::cout << " Please input a and b : " << std::endl;
-//     // std::cin >> a >> b;
-//     // while(a <= b) {
-//     //     std::cout << a << std::endl;
-//     //     a++;
-//     // }
+    //1.11
+    // int a = 0, b = 0;
+    // std::cout << " Please input a and b : " << std::endl;
+    // std::cin >> a >> b;
+    // while(a <= b) {
+    //     std::cout << a << std::endl;
+    //     a++;
+    // }
 
-//     return 0;
-// }
+    return 0;
+}
 
 //1.4.2
 
-// int main()
-// {
-//     // int sum = 0;
-//     // //´Ó1 ¼Óµ½ 10
-//     // for (int val = 1; val <= 10; val++) {
-//     //     sum += val;
-//     // }
+int main()
+{
+    // int sum = 0;
+    // //ä»1 åŠ åˆ° 10
+    // for (int val = 1; val <= 10; val++) {
+    //     sum += val;
+    // }
 
-//     // std::cout << "Sum of 1 to 10 inclusive is " << sum << std::endl;
+    // std::cout << "Sum of 1 to 10 inclusive is " << sum << std::endl;
 
-//     //1.12
-//     // int sum = 0;
-//     // for(int i = -100; i <= 100; i++) {
-//     //     sum += i;
-//     // }
-//     // std::cout << " sum is : " << sum << std::endl;
+    //1.12
+    // int sum = 0;
+    // for(int i = -100; i <= 100; i++) {
+    //     sum += i;
+    // }
+    // std::cout << " sum is : " << sum << std::endl;
 
-//     //1.13
-//     //(1)
-//     // int sum = 0;
-//     // for(int i = 50; i <=100; i++) {
-//     //     sum += i;
-//     // }
-//     // std::cout << " sum is : " << sum << std::endl;
-//     // //(2)
-//     // for(int i = 10; i >= 0; i--) {
-//     //     std::cout << i << std::endl;
-//     // }
-//     // //(3)
-//     // int a = 0, b = 0;
-//     // std::cout << "P input a and b" << std::endl;
-//     // std::cin >> a >> b;
-//     // for(int i = a; i <= b; i++) {
-//     //     std::cout << i << std::endl;
-//     // }
+    //1.13
+    //(1)
+    // int sum = 0;
+    // for(int i = 50; i <=100; i++) {
+    //     sum += i;
+    // }
+    // std::cout << " sum is : " << sum << std::endl;
+    // //(2)
+    // for(int i = 10; i >= 0; i--) {
+    //     std::cout << i << std::endl;
+    // }
+    // //(3)
+    // int a = 0, b = 0;
+    // std::cout << "P input a and b" << std::endl;
+    // std::cin >> a >> b;
+    // for(int i = a; i <= b; i++) {
+    //     std::cout << i << std::endl;
+    // }
 
-//     //1.15
-//     //Óï·¨´íÎó
-//     // std::cout << "Read each file." << std::endl:
+    //1.15
+    //è¯­æ³•é”™è¯¯
+    // std::cout << "Read each file." << std::endl:
 
-//     // std::cout << sun << std::endl;
+    // std::cout << sun << std::endl;
 
-//     // std::cout << "sun" std::endl;
+    // std::cout << "sun" std::endl;
 
-//     // return 0
-//     //±à¼­-±àÒë-µ÷ÊÔÖÜÆÚ
+    // return 0
+    //ç¼–è¾‘-ç¼–è¯‘-è°ƒè¯•å‘¨æœŸ
 
-//     // int sum = 0, value = 0;
-//     // // ¶ÁÈ¡Êı¾İÖ±µ½Óöµ½ÎÄ¼şÎ²£¬¼ÆËãËùÓĞ¶ÁÈëµÄÖµµÄºÍ
-//     // while( std::cin >> value ) {    //ÓÃÒ»¸ö istream ¶ÔÏó×÷ÎªÌõ¼şÊ±£¬ÆäĞ§¹ûÊÇ¼ì²âÁ÷µÄ×´Ì¬¡£
-//     //                                 /*
-//     //                                 * Èç¹ûÁ÷ÊÇÓĞĞ§µÄ£¬¼´Á÷Î´Óöµ½´íÎó£¬ÄÇÃ´¼ì²â³É¹¦¡£µ±Óöµ½ÎÄ¼ş½áÊø·û(ctrl + z)£¬
-//     //                                 * »òÓöµ½Ò»¸öÎŞĞ§ÊäÈëÊ±£¨ÀıÈç±¾ÀıÊäÈëµÄ²»ÊÇÕûÊı£¬istream¶ÔÏóµÄ×°Ìî»á±äÎªÎŞĞ§¡£
-//     //                                 * ´¦ÓÚÎŞĞ§×´Ì¬µÄ istrem ¶ÔÏó»áÊ¹µÃÌõ¼ş±äÎª¼Ù¡£
-//     //                                 */
-//     //     sum += value;
-//     // }
-//     // std::cout << " Sum is : " << sum << std::endl;
+    // int sum = 0, value = 0;
+    // // è¯»å–æ•°æ®ç›´åˆ°é‡åˆ°æ–‡ä»¶å°¾ï¼Œè®¡ç®—æ‰€æœ‰è¯»å…¥çš„å€¼çš„å’Œ
+    // while( std::cin >> value ) {    //ç”¨ä¸€ä¸ª istream å¯¹è±¡ä½œä¸ºæ¡ä»¶æ—¶ï¼Œå…¶æ•ˆæœæ˜¯æ£€æµ‹æµçš„çŠ¶æ€ã€‚
+    //                                 /*
+    //                                 * å¦‚æœæµæ˜¯æœ‰æ•ˆçš„ï¼Œå³æµæœªé‡åˆ°é”™è¯¯ï¼Œé‚£ä¹ˆæ£€æµ‹æˆåŠŸã€‚å½“é‡åˆ°æ–‡ä»¶ç»“æŸç¬¦(ctrl + z)ï¼Œ
+    //                                 * æˆ–é‡åˆ°ä¸€ä¸ªæ— æ•ˆè¾“å…¥æ—¶ï¼ˆä¾‹å¦‚æœ¬ä¾‹è¾“å…¥çš„ä¸æ˜¯æ•´æ•°ï¼Œistreamå¯¹è±¡çš„è£…å¡«ä¼šå˜ä¸ºæ— æ•ˆã€‚
+    //                                 * å¤„äºæ— æ•ˆçŠ¶æ€çš„ istrem å¯¹è±¡ä¼šä½¿å¾—æ¡ä»¶å˜ä¸ºå‡ã€‚
+    //                                 */
+    //     sum += value;
+    // }
+    // std::cout << " Sum is : " << sum << std::endl;
 
-//     //1.16
-//     // int sum = 0;
-//     // int value = 0;
-//     // while(std::cin >> value) {
-//     //     sum += value;
-//     // }
-//     // std::cout << "sum is "<< sum << std::endl;
+    //1.16
+    // int sum = 0;
+    // int value = 0;
+    // while(std::cin >> value) {
+    //     sum += value;
+    // }
+    // std::cout << "sum is "<< sum << std::endl;
 
-//     return 0;
-// }
+    return 0;
+}
 
 //1.4.4
 
