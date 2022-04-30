@@ -112,30 +112,78 @@
 
 //2.3.2
 
+// #include <iostream>
+
+// int main() {
+//     // const int buf;
+//     // int cnt = 0;
+//     // const int sz = cnt;
+//     // std::cout << sz << std::endl;
+//     // return 0;
+//     //2.18
+//     // int *p = nullptr;
+//     // int a = 10;
+//     // p = &a;
+//     // *p = 20;
+//     // std::cout << a << std::endl;
+
+//     //2.19
+//     //指针它是一个对象，而引用仅仅是某个对象的别名，并不是对象
+//     //因此，一旦定义了引用，就无法令其再绑定到另外的对象。
+//     //而指针，则可以改变指向，指向一个新对象。
+
+//     //2.20
+//     // int i = 12;
+//     // int *p1 = &i;
+//     // *p1 = *p1 * *p1;
+//     // std::cout << i << std::endl;
+
+//     // using SI = int;
+//     // typedef int wages;
+//     // wages b = 2;
+//     // SI a = 1;
+//     // std::cout << a << std::endl;
+//     // std::cout << b << std::endl;
+//     // return 0;
+// }
+
+//2.39
+
+// struct Foo { /* 此处为空 */ } //注意没有分号
+
+//2.30
+// struct student {
+//     std::string name;
+//     std::string gender;
+//     int score;
+//     int order;
+// };
+
+
+//2.41
+
 #include <iostream>
+#include <string>
+#include "Sales_data.h"
 
-int main() {
-    // const int buf;
-    int cnt = 0;
-    const int sz = cnt;
-    std::cout << sz << std::endl;
+int main()
+{
+    Sales_data data1, data2;
+    Sales_data temp;
+    //读入 data1 和 data2的代码
+    std::cin >> data1.bookNo >> data1.units_sold >> data1.price;
+    std::cin >> data2.bookNo >> data2.units_sold >> data2.price;
+
+    std::cout << "No = " << data1.bookNo << "\nunit_sold = " << data1.units_sold << "\nprice = " << data1.price << std::endl;
+    std::cout << "No = " << data2.bookNo << "\nunit_sold = " << data2.units_sold << "\nprice = " << data2.price << std::endl;
+    //检查 data1 和 data2的ISBN是否相同的代码
+    //如果相同，求data1 和 data2 的总和
+    if (data1.bookNo == data2.bookNo) {
+        temp.bookNo = data1.bookNo;
+        temp.units_sold = data1.units_sold + data2.units_sold;
+        temp.price = (data1.price * data1.units_sold + data2.price * data2.units_sold)/(data1.units_sold + data2.units_sold);
+        std::cout << "\nNo = " << temp.bookNo << "\nunit_sold = " << temp.units_sold << "\nprice = " << temp.price << std::endl;
+    }
+
     return 0;
-    //2.18
-    // int *p = nullptr;
-    // int a = 10;
-    // p = &a;
-    // *p = 20;
-    // std::cout << a << std::endl;
-
-    //2.19
-    //指针它是一个对象，而引用仅仅是某个对象的别名，并不是对象
-    //因此，一旦定义了引用，就无法令其再绑定到另外的对象。
-    //而指针，则可以改变指向，指向一个新对象。
-
-    //2.20
-    // int i = 12;
-    // int *p1 = &i;
-    // *p1 = *p1 * *p1;
-    // std::cout << i << std::endl;
-
 }
